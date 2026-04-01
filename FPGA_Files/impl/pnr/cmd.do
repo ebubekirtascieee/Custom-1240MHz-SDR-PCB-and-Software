@@ -1,0 +1,18 @@
+-d D:\Designs\Altium\RF_1240MHZ_Receiver\FPGA_Files\impl\gwsynthesis\RF-Reciever.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst D:\Designs\Altium\RF_1240MHZ_Receiver\FPGA_Files\src\RF.cst
+-cfg D:\Designs\Altium\RF_1240MHZ_Receiver\FPGA_Files\impl\pnr\device.cfg
+-sdc D:\Designs\Altium\RF_1240MHZ_Receiver\FPGA_Files\src\RF.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
