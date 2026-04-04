@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="RF_main" Register="2073" Alu="1411" Lut="1713" MULT18X18="3" MULTALU36X18="1" MULTADDALU18X18="3" ALU54D="6" Bsram="6" T_Register="2141(2073)" T_Alu="1434(1411)" T_Lut="1772(1713)" T_MULT18X18="3(3)" T_MULTALU36X18="1(1)" T_MULTADDALU18X18="3(3)" T_ALU54D="6(6)" T_Bsram="9(6)">
- <SubModule name="LO_414MHZ"/>
- <SubModule name="SAMPLING_20MHZ"/>
- <SubModule name="debug_uart" Register="13" Lut="25" T_Register="13(13)" T_Lut="25(25)"/>
- <SubModule name="audio_c" Register="55" Alu="23" Lut="34" T_Register="55(55)" T_Alu="23(23)" T_Lut="34(34)"/>
- <SubModule name="fft_bsram" Bsram="2" T_Bsram="2(2)"/>
- <SubModule name="custom_vram" Bsram="1" T_Bsram="1(1)"/>
-</Module>
